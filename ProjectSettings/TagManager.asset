@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Hand
+  - Leg
+  - Head
+  - Platform
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Platform
+  - Archer-1
+  - Archer-2
+  - Arrow-1
+  - Arrow-2
+  - Arm-1
+  - Arm-2
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Environment
+    uniqueID: 2835202071
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI_Tutorial
+    uniqueID: 400733197
+    locked: 0
+  - name: UI
+    uniqueID: 1599741343
+    locked: 0

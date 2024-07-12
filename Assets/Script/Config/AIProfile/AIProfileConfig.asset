@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8c7fa267d1d6f5418fefe9fe79e4c4b, type: 3}
+  m_Name: AIProfileConfig
+  m_EditorClassIdentifier: 
+  records:
+  - ID: A1
+    difficulty: 'Very Easy '
+    waitUntilShoot: 6
+    accurateChance: 20
+  - ID: A2
+    difficulty: Easy
+    waitUntilShoot: 5
+    accurateChance: 30
+  - ID: A3
+    difficulty: Medium
+    waitUntilShoot: 4
+    accurateChance: 35
+  - ID: A4
+    difficulty: Medium Hard
+    waitUntilShoot: 3
+    accurateChance: 40
+  - ID: A5
+    difficulty: Hard
+    waitUntilShoot: 2
+    accurateChance: 50
+  - ID: A6
+    difficulty: Very Hard
+    waitUntilShoot: 1
+    accurateChance: 65

@@ -1,0 +1,241 @@
+{
+"skeleton": {
+	"hash": "hdGJQ+l0PWi3fNXVvvMCCs5evOY",
+	"spine": "3.8.99",
+	"x": -29,
+	"y": -21.85,
+	"width": 59,
+	"height": 60,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Skull", "parent": "root", "y": 8.15 },
+	{ "name": "Eye", "parent": "Skull", "y": 0.83 },
+	{ "name": "Eye_Back", "parent": "Skull" },
+	{ "name": "X", "parent": "root", "y": 8.15 },
+	{ "name": "Fire", "parent": "root", "y": 18.64 }
+],
+"slots": [
+	{ "name": "Fire", "bone": "Fire" },
+	{ "name": "Eye_Back", "bone": "Eye_Back" },
+	{ "name": "Skull", "bone": "Skull", "attachment": "Skull" },
+	{ "name": "Eye", "bone": "Eye" },
+	{ "name": "X", "bone": "X" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Eye": {
+				"Eye_1": { "y": 1.21, "width": 46, "height": 21 },
+				"Eye_2": { "y": 1.57, "width": 46, "height": 21 }
+			},
+			"Eye_Back": {
+				"Eye_Back": { "y": 0.5, "width": 42, "height": 21 }
+			},
+			"Fire": {
+				"Fire/Fire_0000s_0001_19": { "width": 96, "height": 96 },
+				"Fire/Fire_0000s_0002_18": { "width": 96, "height": 96 },
+				"Fire/Fire_0000s_0003_17": { "width": 96, "height": 96 },
+				"Fire/Fire_0000s_0004_16": { "width": 96, "height": 96 },
+				"Fire/Fire_0000s_0005_15": { "width": 96, "height": 96 },
+				"Fire/Fire_0000s_0006_14": { "width": 96, "height": 96 },
+				"Fire/Fire_0000s_0007_13": { "width": 96, "height": 96 },
+				"Fire/Fire_0000s_0008_12": { "width": 96, "height": 96 },
+				"Fire/Fire_0000s_0009_11": { "width": 96, "height": 96 },
+				"Fire/Fire_0000s_0010_10": { "width": 96, "height": 96 },
+				"Fire/Fire_0000s_0011_9": { "width": 96, "height": 96 },
+				"Fire/Fire_0000s_0012_8": { "width": 96, "height": 96 },
+				"Fire/Fire_0000s_0013_7": { "width": 96, "height": 96 },
+				"Fire/Fire_0000s_0014_6": { "width": 96, "height": 96 },
+				"Fire/Fire_0000s_0015_5": { "width": 96, "height": 96 },
+				"Fire/Fire_0000s_0016_4": { "width": 96, "height": 96 },
+				"Fire/Fire_0000s_0017_3": { "width": 96, "height": 96 },
+				"Fire/Fire_0000s_0018_2": { "width": 96, "height": 96 },
+				"Fire/Fire_0000s_0019_1": { "width": 96, "height": 96 },
+				"Fire/Fire_0000s_0000_20": { "width": 96, "height": 96 }
+			},
+			"Skull": {
+				"Skull": { "x": 0.5, "width": 59, "height": 60 }
+			},
+			"X": {
+				"X": { "x": 0.5, "y": 0.5, "width": 69, "height": 69 }
+			}
+		}
+	}
+],
+"animations": {
+	"Skull_Boss-Die": {
+		"slots": {
+			"Eye": {
+				"attachment": [
+					{ "name": "Eye_2" },
+					{ "time": 0.5333, "name": null }
+				]
+			},
+			"Eye_Back": {
+				"attachment": [
+					{ "name": "Eye_Back" },
+					{ "time": 0.5333, "name": null }
+				]
+			},
+			"Fire": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Fire/Fire_0000s_0019_1" },
+					{ "time": 0.1, "name": "Fire/Fire_0000s_0018_2" },
+					{ "time": 0.1667, "name": "Fire/Fire_0000s_0017_3" },
+					{ "time": 0.2667, "name": "Fire/Fire_0000s_0016_4" },
+					{ "time": 0.3667, "name": "Fire/Fire_0000s_0015_5" },
+					{ "time": 0.4333, "name": "Fire/Fire_0000s_0014_6" },
+					{ "time": 0.5333, "name": "Fire/Fire_0000s_0013_7" },
+					{ "time": 0.6333, "name": "Fire/Fire_0000s_0012_8" },
+					{ "time": 0.7, "name": "Fire/Fire_0000s_0011_9" },
+					{ "time": 0.8, "name": "Fire/Fire_0000s_0010_10" }
+				]
+			},
+			"X": {
+				"attachment": [
+					{ "name": "X" }
+				]
+			}
+		},
+		"bones": {
+			"Skull": {
+				"scale": [
+					{},
+					{ "time": 0.1667, "x": 0.7, "y": 0.4 },
+					{ "time": 0.3333, "x": 0.95, "y": 1.1 },
+					{ "time": 0.5 }
+				]
+			},
+			"X": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": 90 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2667, "x": 0, "y": 0 },
+					{ "time": 0.3667, "x": 1.2, "y": 1.2 },
+					{ "time": 0.4333, "x": 0.8, "y": 0.8 },
+					{ "time": 0.5 }
+				]
+			}
+		}
+	},
+	"Skull_Boss-Idle": {
+		"slots": {
+			"Eye": {
+				"attachment": [
+					{ "name": "Eye_2" }
+				]
+			},
+			"Eye_Back": {
+				"attachment": [
+					{ "name": "Eye_Back" }
+				]
+			},
+			"Fire": {
+				"attachment": [
+					{ "name": "Fire/Fire_0000s_0019_1" },
+					{ "time": 0.1, "name": "Fire/Fire_0000s_0018_2" },
+					{ "time": 0.1667, "name": "Fire/Fire_0000s_0017_3" },
+					{ "time": 0.2667, "name": "Fire/Fire_0000s_0016_4" },
+					{ "time": 0.3667, "name": "Fire/Fire_0000s_0015_5" },
+					{ "time": 0.4333, "name": "Fire/Fire_0000s_0014_6" },
+					{ "time": 0.5333, "name": "Fire/Fire_0000s_0013_7" },
+					{ "time": 0.6333, "name": "Fire/Fire_0000s_0012_8" },
+					{ "time": 0.7, "name": "Fire/Fire_0000s_0011_9" },
+					{ "time": 0.8, "name": "Fire/Fire_0000s_0010_10" },
+					{ "time": 0.8667, "name": "Fire/Fire_0000s_0009_11" },
+					{ "time": 0.9667, "name": "Fire/Fire_0000s_0008_12" },
+					{ "time": 1.0667, "name": "Fire/Fire_0000s_0007_13" },
+					{ "time": 1.1333, "name": "Fire/Fire_0000s_0006_14" },
+					{ "time": 1.2333, "name": "Fire/Fire_0000s_0005_15" },
+					{ "time": 1.3333, "name": "Fire/Fire_0000s_0004_16" },
+					{ "time": 1.4, "name": "Fire/Fire_0000s_0003_17" },
+					{ "time": 1.5, "name": "Fire/Fire_0000s_0002_18" },
+					{ "time": 1.6, "name": "Fire/Fire_0000s_0001_19" },
+					{ "time": 1.6667, "name": "Fire/Fire_0000s_0000_20" }
+				]
+			}
+		},
+		"bones": {
+			"Skull": {
+				"translate": [
+					{},
+					{ "time": 0.8333, "y": 4.13 },
+					{ "time": 1.6667 }
+				]
+			}
+		}
+	},
+	"Skull_Normal-Die": {
+		"slots": {
+			"X": {
+				"attachment": [
+					{ "name": "X" }
+				]
+			}
+		},
+		"bones": {
+			"Skull": {
+				"scale": [
+					{},
+					{ "time": 0.1667, "x": 0.7, "y": 0.4 },
+					{ "time": 0.3333, "x": 0.95, "y": 1.1 },
+					{ "time": 0.5 }
+				]
+			},
+			"X": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": 90 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2667, "x": 0, "y": 0 },
+					{ "time": 0.3667, "x": 1.2, "y": 1.2 },
+					{ "time": 0.4333, "x": 0.8, "y": 0.8 },
+					{ "time": 0.5 }
+				]
+			}
+		}
+	},
+	"Skull_Normal-Idle": {},
+	"Skull_Normal-Smill": {
+		"slots": {
+			"Eye": {
+				"attachment": [
+					{ "time": 0.1667, "name": "Eye_1" },
+					{ "time": 1.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Skull": {
+				"translate": [
+					{ "time": 0.5 },
+					{ "time": 0.6667, "y": 2.21 },
+					{ "time": 0.8333 },
+					{ "time": 1, "y": 2.21 },
+					{ "time": 1.1667 },
+					{ "time": 1.3333, "y": 2.21 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.1667, "y": 0.8 },
+					{ "time": 0.3333, "x": 0.95, "y": 1.1 },
+					{ "time": 0.5 }
+				]
+			}
+		}
+	}
+}
+}
